@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:gravity="center"
+    android:orientation="vertical">
+    <com.github.ybq.android.spinkit.SpinKitView
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/spin_kit"
+		style="@style/SpinKitView.Large.Circle"
+		android:padding="10dp"
+		android:layout_width="150dp"
+		android:layout_height="150dp"
+		android:layout_gravity="center"
+		app:SpinKit_Color="@color/colorAccent" />   
+	<TextView
+		android:layout_marginTop="20dp"
+		android:id="@+id/loading"
+		android:text="Fetching Data..."
+		android:textSize="16sp"
+		android:textColor="#FFFFFF"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"/>
+</LinearLayout>
